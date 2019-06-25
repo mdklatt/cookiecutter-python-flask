@@ -1,0 +1,5 @@
+## Python requirements for using the python-flask template. 
+##
+##   python -m pip install --requirement=requirements.txt
+##
+cookiecutter>=1.6
