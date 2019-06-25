@@ -2,3 +2,6 @@
 ##
 core:
   logging: WARN
+
+wsgi:
+  logging: WARN

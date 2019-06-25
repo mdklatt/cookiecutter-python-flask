@@ -3,7 +3,7 @@
     python -m {{ cookiecutter.app_name }}  ...
 
 """
-def main():
+def main() -> int:
     """ Execute the application.
 
     """

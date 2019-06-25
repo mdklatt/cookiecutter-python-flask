@@ -85,6 +85,8 @@ class YamlConfig(_AttrDict):
         :param root: place config values at this root
         :param macros: macro substitutions
         """
+        # TODO: Support Path objects.
+        
         def replace(match):
             """ Callback for re.sub to do macro replacement. """
             # This allows for multi-pattern substitution in a single pass.

@@ -1,8 +1,7 @@
 """ Application commands common to all interfaces.
 
 """
-from .cmd1 import main as cmd1
-from .cmd2 import main as cmd2
+from .hello import main as hello
 
 
-__all__ = "cmd1", "cmd2"
+__all__ = "hello",
