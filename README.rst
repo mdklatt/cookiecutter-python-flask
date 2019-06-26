@@ -32,7 +32,7 @@ Project Features
 .. _Sphinx: http://sphinx-doc.org
 .. _MIT License: http://choosealicense.com/licenses/mit
 
-- Python 3.5+
+- Python 3.5 - 3.7 (Flask does not support 3.8 yet)
 - `MIT License`_
 - `pytest`_ test suite
 - `Sphinx`_ documentation
