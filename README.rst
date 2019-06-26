@@ -3,11 +3,11 @@ Python Flask Application Project Template
 #########################################
 
 .. _travis: https://travis-ci.org/mdklatt/cookiecutter-python-flask
-.. |travis.png| image:: https://travis-ci.org/mdklatt/cookiecutter-python-flask.png
+.. |badge| image:: https://travis-ci.org/mdklatt/cookiecutter-python-flask.png
    :alt: Travis CI build status
    :target: `travis`_
 
-|travis.png|
+|badge|
 
 .. _Cookiecutter: http://cookiecutter.readthedocs.org
 .. _Flask: http://flask.pocoo.or
@@ -44,7 +44,7 @@ Application Features
 
 .. _YAML: http://pyyaml.org/wiki/PyYAML
 
-- REST API  (TODO)
+- REST API
 - CLI with subcommands
 - Logging
 - Hierarchical `YAML`_ configuration
