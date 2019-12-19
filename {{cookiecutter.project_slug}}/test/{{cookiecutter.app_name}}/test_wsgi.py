@@ -7,7 +7,6 @@ precedence over the version in this project directory. Use a virtualenv test
 environment or setuptools develop mode to test against the development version.
 
 """
-from json import loads
 from yaml import dump
 
 import pytest
