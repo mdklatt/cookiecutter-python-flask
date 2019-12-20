@@ -32,7 +32,7 @@ Project Features
 .. _Sphinx: http://sphinx-doc.org
 .. _MIT License: http://choosealicense.com/licenses/mit
 
-- Python 3.5 - 3.7 (Flask does not support 3.8 yet)
+- Python 3.5+
 - `MIT License`_
 - `pytest`_ test suite
 - `Sphinx`_ documentation
@@ -45,6 +45,7 @@ Application Features
 .. _YAML: http://pyyaml.org/wiki/PyYAML
 
 - REST API
+- Flask Blueprints
 - CLI with subcommands
 - Logging
 - Hierarchical `YAML`_ configuration
