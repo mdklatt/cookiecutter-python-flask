@@ -8,6 +8,9 @@ from ..core.logger import logger
 from ._rest import rest
 
 
+__all__ = "app",
+
+
 app = Flask(__name__)
 app.register_blueprint(rest, url_prefix="/{{ cookiecutter.app_url }}")
 
